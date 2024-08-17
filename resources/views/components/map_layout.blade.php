@@ -28,7 +28,7 @@
             </section>
 
             <section class="wmap">
-                hello
+                hello!
             </section>
         </main>
 
