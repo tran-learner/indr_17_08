@@ -1,0 +1,41 @@
+*{
+    margin-left: 0.7%;
+    margin-right: 0.7%;
+}
+.top {
+    display: flex;
+    justify-content: space-between;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    background-color: aquamarine;
+}
+.top h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+main .inf {
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+
+    margin-top: 40px;
+    margin-left: 0%;
+    height: 500px;
+    width: 20%;
+}
+
+.wmap {
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    margin-left: 2%;
+    margin-top: 3%;
+    width: 75%;
+    margin-right: 0%;
+}
