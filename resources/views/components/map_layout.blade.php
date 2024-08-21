@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ol@v7.5.0/ol.css">
 
     @vite('resources/css/app.css')
+
 </head>
 
 <body>
@@ -35,26 +36,7 @@
             </section>
 
             <section class="wmap">
-                {{-- the map goes here --}}
-                {{-- <img src="{{ Vite::asset('resources\image\Screenshot 2024-08-17 163717.png') }}" style="margin-left: 0%"
-                    alt=""> --}}
-                    <div id="map"></div>
-
-                    <script src="https://cdn.jsdelivr.net/npm/ol@v7.5.0/dist/ol.js"></script>
-                    <script>
-                        var map = new ol.Map({
-                            target: 'map',
-                            layers: [
-                                new ol.layer.Tile({
-                                    source: new ol.source.OSM()
-                                })
-                            ],
-                            view: new ol.View({
-                                center: ol.proj.fromLonLat([105.8542, 21.0285]), // Tọa độ Hà Nội
-                                zoom: 12
-                            })
-                        });
-                    </script>
+                hello!
             </section>
         </main>
 
