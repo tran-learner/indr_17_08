@@ -1,0 +1,86 @@
+*{
+    margin-left: 0.7%;
+    margin-right: 0.7%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+.top {
+    display: flex;
+    justify-content: space-between;
+    /* border-width: 5px;
+    border-color: black;
+    border-style: solid; */
+    /* background-color: aquamarine; */
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+}
+
+.top input {
+    margin-top: 5%;
+    border-radius: 30px;
+    float: right;
+    border-style: none;
+    border-color: transparent;
+    background-color: rgb(237, 237, 237);
+    padding-left: 5%;
+    padding-bottom: 0%;
+}
+
+.searchBox input {
+    width: 400px;
+    height:40px;
+    margin-bottom: 0%;
+}
+
+main {
+    margin-top: 0%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* main .inf {
+    border-radius: 30px;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+
+    margin-top: 40px;
+    margin-left: 0%;
+    height: 500px;
+    width: 20%;
+} */
+
+.left {
+    width: 22%;
+}
+
+.left .unitName {
+    margin-top: 40%;
+    font-size: 235%;
+    text-align: left;
+}
+
+.sensorCard {
+    
+    border-width: 5px;
+    border-style: solid;
+    justify-content: center;
+    margin-left: 10%;
+    padding-left: 7%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    border-radius: 30px;
+    width: 150px;
+}
+.wmap {
+    border-radius: 30px;
+    overflow: hidden;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    margin-left: 0%;
+    margin-top: 3%;
+    width: 75%;
+    height: 550px;
+    margin-right: 0%;
+}
