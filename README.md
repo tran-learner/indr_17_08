@@ -1,4 +1,4 @@
-- Chạy php artisan breeze:install
+- Chạy php artisan breeze:install (nếu không được thì chạy "composer install" trước)
 - Chạy map openlayer trước, sau đó dán link map vào thẻ iframe trong file dashboard.blade.php & welcome.blade.php
 - npm run dev
 - php artisan serve
