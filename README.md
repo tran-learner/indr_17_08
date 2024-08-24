@@ -1,4 +1,4 @@
-- Chạy php artisan breeze:install (nếu không được thì chạy "composer install" trước)
+- Nếu bị lỗi định dạng (nhìn như thiếu CSS =)) ) thì chạy php artisan breeze:install (nếu không được thì chạy "composer install" trước)
   
 - Nếu bị lỗi server 500 thì kiểm tra xem có file .env không, nếu không có thì tạo file ".env" và cấu hình lại ở phần database trong file .env cho phù hợp với máy của mình:
     "DB_CONNECTION=mysql
